@@ -9,8 +9,8 @@ public class Program {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
-        File inFile = new File("//Users//viniciusguerra//IdeaProjects//JavaExercises//src//main//java//exercicios//exercicioFiles//files//inFile.txt");
-        File outFile = new File("//Users//viniciusguerra//IdeaProjects//JavaExercises//src//main//java//exercicios//exercicioFiles//files//outFile.txt");
+        File inFile = new File("src/main/java/exercicios/exercicioFiles/files/inFile.txt");
+        File outFile = new File("src/main/java/exercicios/exercicioFiles/files/outFile.txt");
 
         try(BufferedReader bf = new BufferedReader(new FileReader(inFile));
             BufferedWriter bw = new BufferedWriter(new FileWriter(outFile))){
